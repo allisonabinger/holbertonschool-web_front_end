@@ -597,7 +597,7 @@ ul.row {
 
 /* header */
 .header {
-    pad: var(--header-padding);
+    padding: var(--header-padding);
 }
 
 /* header-logo */
