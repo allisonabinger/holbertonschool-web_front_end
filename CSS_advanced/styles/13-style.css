@@ -21,15 +21,16 @@ a:link{
 a:visited{
     font-style: italic;
 }
+
 /* anchor elements: hover */
 a:hover {
     text-decoration: underline;
 }
+
 /* anchor elements: actiive (selected) link */
 a:active {
     background-color: var(--color-light-grey);
 }
-
 
 /* class 'visually-hidden' display set to none */
 .visually-hidden {
