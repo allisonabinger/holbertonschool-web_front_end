@@ -1,0 +1,32 @@
+/* smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+/* set body foreground color value */
+body {
+    color: var(--text-color);
+}
+/* set anchor element foreground color value */
+a {
+    color: var(--text-color);;
+}
+
+/* class 'visually-hidden' display set to none */
+.visually-hidden {
+    display: none;
+}
+
+/* classes 'card-category, .section-tagline' foreground color set */
+.card-category, .section-tagline {
+    color: var(--color-primary);
+}
+
+/* root element custom properties for global use*/
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+}
