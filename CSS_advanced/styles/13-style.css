@@ -27,7 +27,7 @@ a:hover {
 }
 /* anchor elements: actiive (selected) link */
 a:active {
-    color: var(--color-light-grey)
+    background-color: var(--color-light-grey);
 }
 
 
