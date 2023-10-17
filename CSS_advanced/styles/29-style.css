@@ -557,7 +557,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* before psuedo elements of nav-link when nav-item is hover (inside nav) */
-.nav .nav-tem::hover .nav-link::before {
+.nav .nav-item::hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
 }
